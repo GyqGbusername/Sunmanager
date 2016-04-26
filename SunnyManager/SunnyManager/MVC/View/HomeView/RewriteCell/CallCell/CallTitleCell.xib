@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="CallTitleCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="45"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="44.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="time" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zWx-jQ-qHX">
+                        <rect key="frame" x="278" y="11" width="34" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="TyJ-DO-l77"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" red="0.62745098039215685" green="0.62745098039215685" blue="0.62745098039215685" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="desknumtype" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Uw3-tY-AXT">
+                        <rect key="frame" x="8" y="11.5" width="105" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="cTO-aX-cJy"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailingMargin" secondItem="zWx-jQ-qHX" secondAttribute="trailing" id="JXt-qD-9Ne"/>
+                    <constraint firstItem="Uw3-tY-AXT" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="R0L-Nb-bs9"/>
+                    <constraint firstAttribute="leadingMargin" secondItem="Uw3-tY-AXT" secondAttribute="leading" id="hMS-0N-Jyq"/>
+                    <constraint firstItem="zWx-jQ-qHX" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="pkd-CD-8xW"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="deskType" destination="Uw3-tY-AXT" id="ohc-Vj-hpe"/>
+                <outlet property="time" destination="zWx-jQ-qHX" id="hdi-cq-xbP"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+</document>

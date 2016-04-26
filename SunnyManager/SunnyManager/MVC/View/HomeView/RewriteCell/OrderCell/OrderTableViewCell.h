@@ -1,0 +1,13 @@
+//
+//  OrderTableViewCell.h
+//  SunnyManager
+//
+//  Created by 关宇琼 on 16/4/25.
+//  Copyright © 2016年 bf. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+
+@interface OrderTableViewCell : UITableViewCell
+
+@end

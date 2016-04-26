@@ -1,0 +1,21 @@
+//
+//  PrefixHeader.pch
+//  SunnyManager
+//
+//  Created by mfwl on 16/4/22.
+//  Copyright © 2016年 bf. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import "ThirdPartsTitle.h"
+#import "MacroURL.h"
+#import "MacroStatus.h"
+#import "MacroColor.h"
+#import "MacroSize.h"
+#import "MacroFunction.h"
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* PrefixHeader_pch */
